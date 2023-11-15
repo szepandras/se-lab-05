@@ -60,6 +60,8 @@
 <ref refid="7d196595-79c5-11ee-bc43-b36fa92a13fc"/>
 <ref refid="f2412612-79c5-11ee-81a3-b36fa92a13fc"/>
 <ref refid="42db40fc-79c6-11ee-aae2-b36fa92a13fc"/>
+<ref refid="216cac3d-83c3-11ee-99c7-e0be03624b7d"/>
+<ref refid="cade66ad-83c3-11ee-bc6d-e0be03624b7d"/>
 </reflist>
 </ownedType>
 <package>
@@ -118,6 +120,8 @@
 <reflist>
 <ref refid="7d19d651-79c5-11ee-9c4d-b36fa92a13fc"/>
 <ref refid="f2416612-79c5-11ee-90f5-b36fa92a13fc"/>
+<ref refid="216cfa57-83c3-11ee-aba4-e0be03624b7d"/>
+<ref refid="cadeb4b1-83c3-11ee-921e-e0be03624b7d"/>
 <ref refid="40ca9ec3-79c6-11ee-92af-b36fa92a13fc"/>
 </reflist>
 </ownedPresentation>
@@ -284,7 +288,7 @@
 </Class>
 <ClassItem id="7d19d651-79c5-11ee-9c4d-b36fa92a13fc">
 <matrix>
-<val>(1.0, 0.0, 0.0, 1.0, 188.69903564453125, 134.0422821044922)</val>
+<val>(1.0, 0.0, 0.0, 1.0, 194.69903564453125, 199.0422821044922)</val>
 </matrix>
 <top-left>
 <val>(0.0, 0.0)</val>
@@ -396,7 +400,7 @@
 <val>(1.0, 0.0, 0.0, 1.0, 421.47735595703125, 232.82603454589844)</val>
 </matrix>
 <points>
-<val>[(-96.59771728515625, -46.45356966879685), (-33.87640380859375, 11.134254455566406)]</val>
+<val>[(-90.59771728515625, 18.54643033120314), (-33.87640380859375, 11.134254455566406)]</val>
 </points>
 <head-connection>
 <ref refid="7d19d651-79c5-11ee-9c4d-b36fa92a13fc"/>
@@ -1426,4 +1430,70 @@
 <ref refid="7bff7a15-83be-11ee-a4dd-e0be03624b7d"/>
 </specific>
 </Generalization>
+<Class id="216cac3d-83c3-11ee-99c7-e0be03624b7d">
+<name>
+<val>Office</val>
+</name>
+<package>
+<ref refid="764fa200-79c4-11ee-96bd-b36fa92a13fc"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="216cfa57-83c3-11ee-aba4-e0be03624b7d"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="216cfa57-83c3-11ee-aba4-e0be03624b7d">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 109.0, 372.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>60.0</val>
+</height>
+<diagram>
+<ref refid="b42d8e05-79c4-11ee-9027-b36fa92a13fc"/>
+</diagram>
+<subject>
+<ref refid="216cac3d-83c3-11ee-99c7-e0be03624b7d"/>
+</subject>
+</ClassItem>
+<Class id="cade66ad-83c3-11ee-bc6d-e0be03624b7d">
+<name>
+<val>Private trip</val>
+</name>
+<package>
+<ref refid="764fa200-79c4-11ee-96bd-b36fa92a13fc"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="cadeb4b1-83c3-11ee-921e-e0be03624b7d"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="cadeb4b1-83c3-11ee-921e-e0be03624b7d">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 360.0, 425.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>100.0</val>
+</width>
+<height>
+<val>60.0</val>
+</height>
+<diagram>
+<ref refid="b42d8e05-79c4-11ee-9027-b36fa92a13fc"/>
+</diagram>
+<subject>
+<ref refid="cade66ad-83c3-11ee-bc6d-e0be03624b7d"/>
+</subject>
+</ClassItem>
 </gaphor>
